@@ -1,12 +1,34 @@
-# React + Vite
+Kanban Board Web Application
+A Kanban-style task management web application built using React.js. This app helps users manage tasks visually by organizing them into draggable columns like "To Do", "In Progress", and "Done". The project supports user authentication, task CRUD operations, and drag-and-drop functionality for seamless task organization.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🧑‍💼 User Authentication (Login, Register)
 
-Currently, two official plugins are available:
+🗂️ Task Management (Create, Edit, Delete Tasks)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔁 Drag & Drop Support using @dnd-kit
 
-## Expanding the ESLint configuration
+🎯 Task Priority & Deadlines
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👤 User Avatars on Tasks
+
+📅 Due Date Badges
+
+🧩 Expandable Task Details
+
+🧹 Delete Dropzone for removing tasks via drag
+
+📊 Filter/Sort by priority or due date
+
+🛠️ Tech Stack
+Frontend: React.js, HTML, CSS
+
+State Management: useState, useEffect, Context API
+
+Backend: JSON Server (Mock REST API)
+
+Version Control: Git & GitHub
+
+
+TO RUN APP - npm run dev
+TO RUN SERVER - npm run server
