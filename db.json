@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": "272e",
+      "name": "Anushka Avinash Nemishte ",
+      "username": "Anushkan",
+      "email": "anushka@gmail.com",
+      "contact": "8010133160",
+      "password": "Anushkan",
+      "profilePic": "uploads/profilepic.jpg"
+    },
+    {
+      "id": "f448",
+      "name": "Gourav Shintre",
+      "username": "GouravS",
+      "email": "gourav@gmail.com",
+      "contact": "9960843039",
+      "password": "GouravS",
+      "profilePic": "uploads/men.jpg"
+    },
+    {
+      "id": "33df",
+      "name": "Anuja Avinash Nemishte",
+      "username": "Anujan",
+      "email": "anuja@gmail.com",
+      "contact": "9422409876",
+      "password": "anujan",
+      "profilePic": "uploads/profilepic.jpg"
+    },
+    {
+      "id": "08fe",
+      "name": "avinash Nemishte",
+      "username": "AvinashN",
+      "email": "avinash@gmail.com",
+      "contact": "8010133160",
+      "password": "AvinashN",
+      "profilePic": "uploads/men.jpg"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "6fc8021a-4d54-4537-a28c-85852e77daad",
+      "user_id": "272e",
+      "name": "Add new feature in kanban project",
+      "priority": "High",
+      "deadline": "2025-06-30",
+      "status": "Done"
+    },
+    {
+      "id": "5b1899fe-2e1b-44e0-918c-6ea0a6d56dc2",
+      "user_id": "272e",
+      "name": "Fix login redirect bug",
+      "priority": "Medium",
+      "deadline": "2025-07-02",
+      "status": "To Do"
+    },
+    {
+      "id": "9e015776-9f8b-44d7-ae7c-ea77e221cc16",
+      "user_id": "272e",
+      "name": "Implement social login",
+      "priority": "High",
+      "deadline": "2025-07-01",
+      "status": "In Progress"
+    },
+    {
+      "id": "72a5fc68-c03d-44d5-9c12-bcb0e1b31671",
+      "user_id": "272e",
+      "name": "Optimize dashboard for mobile",
+      "priority": "Low",
+      "deadline": "2025-07-05",
+      "status": "To Do"
+    },
+    {
+      "id": "e9112e17-5299-4d9a-9635-91c56f49d8cd",
+      "user_id": "272e",
+      "name": "Refactor API calls",
+      "priority": "Medium",
+      "deadline": "2025-07-03",
+      "status": "In Progress"
+    },
+    {
+      "id": "d7b5dc93-1b89-4b9b-8828-d144d972b65b",
+      "user_id": "272e",
+      "name": "Test user registration flow",
+      "priority": "High",
+      "deadline": "2025-06-29",
+      "status": "Done"
+    },
+    {
+      "id": "bf6e18be-d173-4704-bb8c-7e5b42c2edc0",
+      "user_id": "272e",
+      "name": "Write unit tests for task component",
+      "priority": "Medium",
+      "deadline": "2025-07-06",
+      "status": "Backlog"
+    },
+    {
+      "id": "0b6b04c9-5c76-4996-845f-7c11fd02b236",
+      "user_id": "272e",
+      "name": "Update user avatar upload logic",
+      "priority": "Low",
+      "deadline": "2025-07-04",
+      "status": "In Progress"
+    },
+    {
+      "id": "0c73ab68-f0e0-489f-8a89-1f0c0e9d3eb0",
+      "user_id": "272e",
+      "name": "Fix column drag-drop issue",
+      "priority": "High",
+      "deadline": "2025-06-30",
+      "status": "To Do"
+    },
+    {
+      "id": "27c49e04-6ee0-4a59-b586-0b019ec212a0",
+      "user_id": "272e",
+      "name": "Implement task filter by priority",
+      "priority": "Medium",
+      "deadline": "2025-07-07",
+      "status": "To Do"
+    },
+    {
+      "id": "1e5b9a9e-c27f-48a3-84b4-56038b9df9f7",
+      "user_id": "272e",
+      "name": "Clean up unused Redux actions",
+      "priority": "Low",
+      "deadline": "2025-07-05",
+      "status": "Done"
+    },
+    {
+      "id": "d0adf33d-ec29-4cfc-984f-1c0a63f2ac1e",
+      "user_id": "272e",
+      "name": "Fix date format in badges",
+      "priority": "High",
+      "deadline": "2025-06-30",
+      "status": "Backlog"
+    },
+    {
+      "id": "b7e1c2bb-dbd7-4645-b8b5-0f1719f2a2bc",
+      "user_id": "272e",
+      "name": "Updated",
+      "priority": "Medium",
+      "deadline": "2025-07-02",
+      "status": "Done"
+    },
+    {
+      "id": "9e6a8c97-2a0f-41eb-8eb2-cba8856482fd",
+      "user_id": "272e",
+      "name": "Fix styling issues in dark mode",
+      "priority": "Low",
+      "deadline": "2025-07-06",
+      "status": "Backlog"
+    }
+  ]
+}

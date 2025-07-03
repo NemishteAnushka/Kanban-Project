@@ -1,0 +1,18 @@
+/* .task-column {
+  width: 250px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-column .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.task-list {
+  flex-grow: 1;
+  overflow-y: auto;
+} */
