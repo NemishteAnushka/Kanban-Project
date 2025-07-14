@@ -14,7 +14,7 @@ function App() {
     }
   }, [dispatch]);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Kanban-Project">
       <AppRoute />
       <ToastContainer position="top-right" autoClose={3000} />
     </BrowserRouter>

@@ -52,7 +52,7 @@ function Login() {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const isEmail = emailRegex.test(formData.usernameOrEmail);
 
-    const user = usersData.find((u) =>
+    const user = usersData?.find((u) =>
       isEmail
         ? u.email === formData.usernameOrEmail
         : u.username === formData.usernameOrEmail
