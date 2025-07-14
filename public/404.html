@@ -1,0 +1,7 @@
+<!-- public/404.html -->
+<script>
+  const pathname = location.pathname.replace("/Kanban-Project", "");
+  const search = location.search;
+  const hash = location.hash;
+  location.replace("/Kanban-Project/?" + pathname + search + hash);
+</script>
