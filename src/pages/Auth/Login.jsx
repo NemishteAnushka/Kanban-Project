@@ -11,7 +11,7 @@ import { useDispatch } from "react-redux";
 
 function Login() {
   const { data: usersData } = useGetusersQuery();
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     usernameOrEmail: "",
@@ -35,7 +35,9 @@ function Login() {
       [name]: value,
     }));
   };
-
+  const handleRegisterClick = () => {
+    navigate("/register");
+  };
   const handleLogin = (e) => {
     e.preventDefault();
     const validationErrors = validateLoginForm(formData);
@@ -140,7 +142,17 @@ function Login() {
 
                 <div className="text-center mt-3">
                   <small>
-                    Don’t have an account? <a href="/register">Register</a>
+                    Don’t have an account?{" "}
+                    <span
+                      onClick={handleRegisterClick}
+                      style={{
+                        color: "#0d6efd",
+                        cursor: "pointer",
+                        textDecoration: "underline",
+                      }}
+                    >
+                      Register
+                    </span>
                   </small>
                 </div>
               </Card.Body>
