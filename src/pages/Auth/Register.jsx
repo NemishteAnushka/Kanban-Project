@@ -63,6 +63,9 @@ function Register() {
     }
   };
 
+  const handleLogInClick = () => {
+    navigate("/");
+  };
   return (
     <div
       className="d-flex justify-content-center align-items-center"
@@ -202,7 +205,16 @@ function Register() {
 
                 <div className="text-center mt-3">
                   <small>
-                    Already have an account? <a href="/">Log In</a>
+                    Already have an account? <span
+                      onClick={handleLogInClick}
+                      style={{
+                        color: "#0d6efd",
+                        cursor: "pointer",
+                        textDecoration: "underline",
+                      }}
+                    >
+                      Log In
+                    </span>
                   </small>
                 </div>
               </Card.Body>
